@@ -1,0 +1,15 @@
+﻿CREATE TABLE HocSinh(
+	MaHS VARCHAR(50) PRIMARY KEY,
+	Ten VARCHAR(50) NOT NULL,
+	QueQuan VARCHAR(100) NOT NULL,
+	NgaySinh VARCHAR(50) NOT NULL,
+	Cmnd VARCHAR(50) NOT NULL,
+	Email VARCHAR(50) NOT NULL,
+	Sdt VARCHAR(50) NOT NULL
+);
+
+INSERT INTO HocSinh VALUES ('21133107', 'Nguyen Tan Phat', 'Khanh Hoa','2/22/2023 10:09 PM','19929219892','phat@gmail.com','0777166027');
+
+INSERT INTO HocSinh VALUES ('123107', 'Nguyen Tan A', 'Khanh Hoa','2/22/2023 10:09 PM','19929219892','phatjddhh@gmail.com','0777166927');
+
+INSERT INTO HocSinh VALUES ('2138328107', 'Nguyen Tan B', 'Khanh Hoa','2/22/2023 10:09 PM','19929219892','phasmsmmst@gmail.com','0777999027');
